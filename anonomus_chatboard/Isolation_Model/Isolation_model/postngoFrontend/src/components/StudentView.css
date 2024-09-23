@@ -1,0 +1,62 @@
+.main-page-container
+{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.background
+{
+    position: fixed;
+    top: 0px;
+    width: auto;
+    height: 125%;
+    filter: blur(0.1px) opacity(20%);
+    object-fit: cover;
+    z-index: -1;
+}
+
+.logout-btn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 64px;
+    width: 64px;
+    font-family: "Ginto Nord";
+    font-size: small;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    transition: ease-in-out 0.25s;
+}
+.logout-btn:hover
+{
+    height: 72px;
+    width: 72px;
+    font-size: large;
+}
+.logout-icon
+{
+    height: 100%;
+    width: 100%;
+}
+
+.post-list
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-height: 100%;
+    margin-top: 36px;
+    width: 75%;
+}

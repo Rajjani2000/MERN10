@@ -1,0 +1,58 @@
+.new-post-edit-container
+{
+    appearance: none;
+    width: 20vw;
+    min-width: 240px;
+    height: 25vh !important;
+    min-height: 320px;
+    background: var(--accent-color-yellow);
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgray;
+    box-shadow: 8px 8px 15px grey;
+}
+.new-post-edit
+{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+
+    font-family: "Hiragino Maru Gothic";
+    font-size: large;
+    line-height: normal;
+    text-align: left;
+    resize: none;
+}
+.new-post-edit-btn
+{
+    position: absolute;
+    bottom: 4px;
+    right: 8px;
+
+    width: 56px;
+    height: 56px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.new-post-edit-btn:hover
+{
+    filter: blur(0.5px);
+}
+.new-post-edit-btn:active
+{
+    background: white;
+    filter: invert(1);
+}
+.new-post-edit-btn-icon
+{
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+    transform: scaleX(-1) rotate(5deg);
+}

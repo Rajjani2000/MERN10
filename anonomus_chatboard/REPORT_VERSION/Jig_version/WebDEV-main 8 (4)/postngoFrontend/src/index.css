@@ -1,0 +1,35 @@
+:root
+{
+	/* 
+		Style choice inspired by the good old slader.com: 
+	    https://web.archive.org/web/20180201023214im_/https://d37b4ew8393wk3.cloudfront.net/images/about/take_the_trip_mobile.svg 
+	*/
+	--accent-color-blue: #6AB9D9;
+	--accent-color-red: #F26B8F; /* Actually Magenta... but for simplicity let's name it red here */
+	--accent-color-yellow: #D5D96A;
+	--accent-color-green: #80CCC1;
+	--accent-color-brown: #A9773D;
+}
+@font-face {
+    font-family: "Ginto Nord";
+    src: url('./assets/fonts/Ginto\ Nord\ Regular.woff2.ttf');
+}
+@font-face {
+    font-family: "Hiragino Maru Gothic";
+    src: url('./assets/fonts/Hiragino\ Maru\ Gothic\ ProN\ W4.otf');
+}
+body 
+{
+  	margin: 0;
+  	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    	sans-serif;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+code 
+{
+  	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    	monospace;
+}
